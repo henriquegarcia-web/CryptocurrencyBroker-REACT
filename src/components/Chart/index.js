@@ -33,7 +33,7 @@ for(let num = 20; num > 0; num--) {
   })
 }
 
-console.log(data)
+// console.log(data)
 
 export default function Chart() {
   

@@ -1,6 +1,6 @@
 import React from 'react'
 import CryptoInfo from '../../../components/CryptoInfo'
-import Ranking from '../../../components/RankingScreen'
+import Ranking from '../../../components/Ranking'
 
 import {
   BrokerViewContainer,
@@ -12,8 +12,8 @@ const BrokerView = ({theme}) => {
     <BrokerViewContainer theme={theme}>
       <ViewContainerBg theme={theme}></ViewContainerBg>
 
-      {/* <Ranking theme={theme} /> */}
-      <CryptoInfo theme={theme} />
+      <Ranking theme={theme} />
+      {/* <CryptoInfo theme={theme} /> */}
     </BrokerViewContainer>
   )
 }

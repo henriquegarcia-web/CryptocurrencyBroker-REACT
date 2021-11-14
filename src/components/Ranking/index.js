@@ -19,8 +19,14 @@ import {
 } from './style'
 
 import BitcoinIcon from '../../assets/btc.png'
+import GetApi from '../../api/CoinCap'
+
 
 const Ranking = ({theme}) => {
+
+  let RankingData = GetApi('/assets', 'BTC', null)
+  console.log(RankingData)
+
   return (
     <RankingScreen>
       <RankingTitle theme={theme}>Top 10 Ranking</RankingTitle>
