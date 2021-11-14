@@ -6,7 +6,7 @@ export const BrokerViewContainer = styled.div`
   flex-direction: column;
   align-items: center;
   height: 600px;
-  width: 600px;
+  width: 700px;
   border: 2px solid ${props => props.theme.purple};
   border-radius: 5px;
   margin-left: 10px;
