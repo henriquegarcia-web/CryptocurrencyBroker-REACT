@@ -3,19 +3,19 @@ import BrokerMenu from './BrokerMenu'
 import BrokerView from './BrokerView'
 
 import {
-  BrokerContainer
+  BrokerContainer,
+  BrokerContainerBg,
+  BrokerPanel
 } from './style'
 
-const Broker = () => {
-
-  const theme = {
-    bgColor: '#16122E'
-  }
-  
+const Broker = ({theme}) => {  
   return (
     <BrokerContainer theme={theme}>
-      <BrokerMenu />
-      <BrokerView />
+      <BrokerContainerBg></BrokerContainerBg>
+      <BrokerPanel theme={theme}>
+        <BrokerMenu theme={theme} />
+        <BrokerView theme={theme} />
+      </BrokerPanel>
     </BrokerContainer>
   )
 }

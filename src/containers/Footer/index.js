@@ -5,12 +5,7 @@ import {
   FooterContainer
 } from './style'
 
-const Footer = () => {
-
-  const theme = {
-    bgColor: '#16122E'
-  }
-
+const Footer = ({theme}) => {
   return (
     <FooterContainer theme={theme}>
       <References />

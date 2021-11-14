@@ -5,11 +5,7 @@ import {
   HeaderContainer
 } from './style'
 
-const Header = () => {
-
-  const theme = {
-    bgColor: '#16122E'
-  }
+const Header = ({theme}) => {
 
   return (
     <HeaderContainer theme={theme}>

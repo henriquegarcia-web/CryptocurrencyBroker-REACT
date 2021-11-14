@@ -11,13 +11,7 @@ import {
 
 import { MainCryptosData } from '../../../data/MainCryptosData'
 
-const BrokerMenu = () => {
-
-  const theme = {
-    bgColor: '#16122E',
-    bgHover: '#1b1733'
-  }
-
+const BrokerMenu = ({theme}) => {
   return (
     <BrokerMenuContainer theme={theme}>
       <RankingButton theme={theme}>

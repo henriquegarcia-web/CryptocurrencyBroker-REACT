@@ -6,5 +6,5 @@ export const HeaderContainer = styled.div`
   align-items: center;
   width: 100%;
   height: 80px;
-  background: ${props => props.theme.bgColor};
+  background: ${props => props.theme.black};
 `

@@ -1,13 +1,14 @@
 import React from 'react'
 
 import {
-  BrokerViewContainer
+  BrokerViewContainer,
+  ViewContainerBg,
 } from './style'
 
-const BrokerView = () => {
+const BrokerView = ({theme}) => {
   return (
-    <BrokerViewContainer>
-      
+    <BrokerViewContainer theme={theme}>
+      <ViewContainerBg theme={theme}></ViewContainerBg>
     </BrokerViewContainer>
   )
 }

@@ -1,39 +1,35 @@
 import styled from "styled-components";
 
 export const BrokerMenuContainer = styled.div`
+  z-index: 10;
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 600px;
-  width: 240px;
-  border: 2px solid ${props => props.theme.bgColor};
-  border-radius: 5px;
-  padding: 10px;
+  width: 250px;
+  /* padding: 10px; */
 `
 
 export const RankingButton = styled.button`
   width: 100%;
   color: white;
-  background: ${props => props.theme.bgColor};
+  background: ${props => props.theme.purple};
   border-radius: 5px;
   font-size: 16px;
   font-weight: 200;
   letter-spacing: 1px;
   padding: 12px;
   cursor: pointer;
-  transition: .3s ease;
+  transition: .2s ease;
   margin-bottom: 10px;
 
   &:hover {
-    background: ${props => props.theme.bgHover};
-    box-shadow: inset 0 0 20px 0px ${props => props.theme.bgColor};
+    opacity: 0.9;
   }
 `
 
 export const CryptoList = styled.div`
   width: 100%;
-  background: ${props => props.theme.bgColor};
-  border-radius: 5px;
   padding: 10px;
 
   p {
@@ -50,8 +46,7 @@ export const CryptoContainer = styled.div`
   display: flex;
   align-items: center;
   width: 100%;
-  background: ${props => props.theme.bgHover};
-  border: 1.4px solid ${props => props.theme.bgHover};
+  border: 1.6px solid rgba(255, 255, 255, 0.12);
   border-radius: 5px;
   margin: 10px 0;
   padding: 8px 10px;
@@ -59,7 +54,7 @@ export const CryptoContainer = styled.div`
   transition: 0.2s ease;
 
   &:hover {
-    border: 1.4px solid rgba(255, 255, 255, 0.1)
+    border: 1.6px solid rgba(255, 255, 255, 0.3);
   }
 
   &:hover img {
