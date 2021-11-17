@@ -1,13 +1,14 @@
-#### Cryptocurrency Broker | Corretor de Criptomoedas
+## Cryptocurrency Broker
+#### Corretor de Criptomoedas
 
 > Desenvolvedor: Henrique P. Garcia <br>
 > Status: Em desenvolvimento
 
 ##### Funcionalidades:
 
-- Visualização individual da cotação das criptomoedas
-- Indicação de preço: atual, máximo e mínimo (atualizado a cada 30 segundos)
-- Listagem atualizada do ranking top 10 criptomoedas
+- Cotação individual das principais criptomoedas do mercado
+- Ranking top 10 criptomoedas
+- Indicadores atualizados 3x por minuto
 
 ##### Imagens do desenvolvimento:
 
